@@ -1,0 +1,6 @@
+Cómo crear mi primer repositorio?
+
+en la terminal, estando sobre una carpeta, inicializamos el repositorio con el comando 
+
+git init
+

@@ -1,0 +1,8 @@
+git add .
+El punto indica mi posición actual, por lo que enviará al 
+Stage Area todo lo que haya de ahí en adelante
+
+Para pasar al Stage Area absolutamente todo, independientemente
+de donde esté yo parado, usamos:
+
+git add -A 

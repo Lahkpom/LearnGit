@@ -1,0 +1,28 @@
+body{
+    /*background: violet;*/
+    background: black;
+    color: violet;
+}
+
+.tituloPrincipal{
+    font: bold;
+    height: 60px;
+}
+
+.tituloSecundario{
+    height: 60px;
+}
+
+div{
+    width: 1000px;
+}
+
+h1{
+    text-align: center;
+}
+
+pre{
+    /*border: 2px solid black;*/
+    border: 2px solid white;
+}
+

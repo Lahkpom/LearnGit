@@ -1,0 +1,21 @@
+Área 1
+Working directory
+Directorio de trabajo
+El proyecto y todo su contenido
+
+Área 2
+Stage area
+Área de preparación (para ser agregados al repositorio)
+Aquí podemos agregar los cambios realizados en el working directory
+
+Área 3
+Local repository
+repositorio
+Aquí ya quedan confirmado lo traajado
+
+//
+Area 1 (hago el codigo)
+    git add .
+Area 2 (lo agrego para hacer el commit)
+    git commit
+Area 3 (hago el commit y lo confirmo en el repo)

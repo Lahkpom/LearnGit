@@ -1,0 +1,26 @@
+git status 
+sirve para ver qué archivos tenemos pendientes para subir al repositorio
+
+git add <file>
+Esto es para avisar a git que vamos a cargar un archivo al stage
+
+git add .
+Para añadir todos los archivos al stage
+
+git commit -m 'comentario'
+Esto es para añadir el comentario de vitácora para git y dejar registro de qué cambio se hizo
+
+git rm --cached <file>
+git rm --cached *
+Esto tiene la capacidad de eliminar archivos del repositorio aunque ya hayan sido commitados
+
+git restore --staged <file>
+git restore --staged *
+Con esto eliminamos solo los archivos que están en el área del stage para darles commit
+
+git checkout <file>
+Esto también sirve para sacar archivos del Stage Area
+
+git log
+Con este comando obtenemos el historial de commits que hemos realizado
+

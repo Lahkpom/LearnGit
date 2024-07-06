@@ -1,0 +1,6 @@
+Configuramos de forma global nuestro nombre de usuario y correo
+
+git config --global user.name "name"
+git config --global user.email "email"
+
+git config --global core.editor "vim" //así ponemos de forma predeterminada a vim como editor de texto

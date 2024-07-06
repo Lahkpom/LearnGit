@@ -1,0 +1,7 @@
+Si yo hice modificaciones en un archivo que aún continúa en el working
+directory, y quiero retorceder esos cambios hasta el estado en el que 
+quedó del último commit, hago:
+
+git checkout <file>
+
+Esto eliminará las modificaciones recientes que no han sido commitadas

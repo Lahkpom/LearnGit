@@ -1,0 +1,46 @@
+con el git log nos da la siguiente información
+
+- El ID del commit que identifica los cambios realizados en el mismo
+
+- El autor (user name and email)
+
+- Date del commit
+
+- Mensaje del commit
+
+
+
+Usando el comando:
+
+git show <commit ID>
+
+se nos muestra un detalle de los cambios que hubo en ese commit
+especificando líneas borradas y líneas nuevas y sobre qué archivos 
+se hicieron esas modificaciones
+
+
+git log --oneline
+
+Usando este comando vemos el log de una forma más agradable
+Sin tanta información de cada uno de los commits que se hayan 
+realizado. NMos mostrará los primeros dígitos del commit ID y
+el comentario realizado
+
+
+git log --oneline <file/folder>
+
+De esta forma filtramos todos los commits que se hayan realizado
+donde solo aparezca el parámetro que yo le indico
+
+
+git log --oneline --author=<User>
+
+Esto nos permite filtrar los commits que haya realizado un usuario
+en específico, esto tiene su uso en un grupo de trabajo donde existen más
+usuarios
+
+git log --oneline --grep=<key word>
+
+Esto nos permite buscar los archivos que contengan en su interior una 
+palabre específica (es case sensitive)
+
